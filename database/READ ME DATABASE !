@@ -1,0 +1,12 @@
+Wichtig damit die H2 DB funktioniert:
+
+check application.properties unter main>resources das die Datasource url auch zu eurer DB eine Verbindung bekommt!
+
+Außerdem lässt sich die Konsole unter localhost:8080/h2 mit User: sa und Password: password aufrufen,
+auch in den application.properties regelbar.
+
+Unter Windows weiß ich leider nicht wo das standard Home-Verzeichnis liegt, hier bitte die teste.mv.db einfügen.
+
+http://www.h2database.com/html/tutorial.html#connecting_using_jdbc
+
+

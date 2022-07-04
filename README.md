@@ -1,3 +1,3 @@
-# API Library
-API to act like library controlled by isbn.
-Progress will be documented any time.
+Bibliothek
+---
+Erstelle eine Web-Applikation für die Präsentation von Büchern in einer Bibliothek. Stellen Sie insbesondere Details dar wie Titel, Autor und ISBN der Bücher.
