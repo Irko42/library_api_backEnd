@@ -1,2 +1,3 @@
-# library_api_backEnd
-API_to_act_like_library_controlled_by_isbn
+# API Library
+API to act like library controlled by isbn.
+Progress will be documented any time.
