@@ -11,24 +11,33 @@ public class book {
     Function: createNewbook, creates JSONObject newbook, appends it with single attributes given by function
 
     */
-    public static Long bookisbn;
-    public static String booktitle;
-    public static String bookauthor;
-    public static String bookdescription;
-    public static Double bookprice;
+    public static Long isbn;
+    public static String title;
+    public static String author;
+    public static String description;
+    public static Double price;
 
-    public static JSONObject createNewbook(String booktitle, String bookauthor, String bookdescription, Integer bookprice,
-                                    Long bookisbn) {
+    public static String state;
+
+    public static Integer available;
+
+    public static Integer borrowed;
+
+    public static Integer lost;
+
+    public static JSONObject createNewbook(String title, String author, String description, Integer price, String state,
+                                    Integer available, Integer borrowed, Integer lost, Long isbn) {
         /***
          *
          *Constructor for book object, as JSONObject
          */
         JSONObject newbook = new JSONObject();
-        newbook.append("Title", booktitle);
-        newbook.append("Author", bookauthor);
-        newbook.append("Description", bookdescription);
-        newbook.append("Price", bookprice);
-        newbook.append("ISBN", bookisbn);
+        newbook.append("Title", title);
+        newbook.append("Author", author);
+        newbook.append("Description", description);
+        newbook.append("Price", price);
+        newbook.append("ISBN", isbn);
+        newbook.append("State", state);
         return newbook;
     }
 }
